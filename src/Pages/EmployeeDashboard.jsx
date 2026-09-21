@@ -29,7 +29,7 @@ function EmployeeDashboard(props) {
     if(ele.active){
       active++;
     }
-    total++
+    total++;
   })
   const updatetaskstatus=(tasktitle,updates)=>{
     const updatedemployee=userdata[0].map((ele)=>{
